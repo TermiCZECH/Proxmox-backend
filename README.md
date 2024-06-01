@@ -71,7 +71,7 @@ The API will perform pre-checks and then start the Flask server on `0.0.0.0:8080
 
 ## Endpoints
 
-Explore the available endpoints and their functionalities in the [Endpoints Documentation](endpoints.md) section of the documentation.
+Explore the available endpoints and their functionalities in the [Endpoints Documentation](ENDPOINTS.md) section of the documentation.
 
 ## Security Considerations
 
