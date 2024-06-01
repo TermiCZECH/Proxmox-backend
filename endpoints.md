@@ -1,5 +1,3 @@
----
-
 ## Endpoints
 
 ### 1. `/iso`
@@ -74,5 +72,3 @@
 - `200 OK`: If the VM is successfully deleted.
 - `400 Bad Request`: If the VM ID is missing or invalid.
 - `401 Unauthorized`: If authentication fails.
-
----
