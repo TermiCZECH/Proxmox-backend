@@ -58,6 +58,12 @@ Before running the API, configure the environment variables in the `.env` file:
 - `PROXMOX_PASS`: Proxmox password
 - `NODE_NAME`: Name of the Proxmox node
 - `VERIFY_SSL`: Flag to toggle SSL verification (true/false)
+- `TOTAL_CPU_THREADS`: Total CPU threads available on your Proxmox server
+- `TOTAL_MEMORY_GB`: Total memory available on your Proxmox server in GB
+- `PROXMOX_CPU_OVERHEAD_THREADS`: Number of CPU threads reserved for Proxmox overhead
+- `PROXMOX_MEMORY_OVERHEAD_GB`: Amount of memory reserved for Proxmox overhead in GB
+
+After configuring the `.env` file, make sure to rename `.env.example` to `.env`.
 
 ## Usage
 
@@ -71,7 +77,7 @@ The API will perform pre-checks and then start the Flask server on `0.0.0.0:8080
 
 ## Endpoints
 
-Explore the available endpoints and their functionalities in the [Endpoints Documentation](ENDPOINTS.md) section of the documentation.
+Explore the available endpoints and their functionalities in the [Endpoints Documentation](endpoints.md) section of the documentation.
 
 ## Security Considerations
 
