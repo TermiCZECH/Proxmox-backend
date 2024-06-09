@@ -39,7 +39,7 @@ Before using this API, ensure you have the following prerequisites installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/TermiCZECH/Proxmox-backend/
 ```
 
 Install the required dependencies:
